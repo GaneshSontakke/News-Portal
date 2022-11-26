@@ -1,0 +1,93 @@
+.card{
+    background-color: wheat;
+    margin: 2.5rem;
+    padding: 1rem;
+    border-radius: 15px;
+    
+    
+
+}
+.card > p {
+    padding: 0.8rem 0rem;
+    /* background-color:rgb(11, 195, 41); */
+    color: rgb(100, 4, 4);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+.content{
+    display: flex;
+    padding: 1rem;
+
+}
+
+.content > p{
+    padding: 0  2rem;
+    
+}
+.button{
+    display: flex;
+    justify-content: space-around;
+    /* margin: 1rem; */
+}
+.tagContainer {
+    
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    
+    
+}
+
+.tagContainer > p{
+    min-width: 3rem;
+    background: rgb(221, 59, 218);
+    background:linear-gradient(
+        165deg,
+        rgb(89,221,59)0%,
+        rgb(210,227,51)100%  );
+    padding: 0.3rem 0.5rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+a{
+    background-color: red;
+    color: white;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    
+
+}
+a:hover{
+    background-color: aqua;
+}
+img{
+    border-radius: 1rem;
+}
+h1{
+    text-align: center;
+    padding: 0.6rem;
+    /* margin-top: 1rem; */
+    color: rgb(53, 45, 45);
+    background-color: rgb(139, 186, 219);
+    border-radius: 0.5rem;
+width: 100%;
+    position: fixed;
+
+}
+h2{
+    /* margin: 1rem; */
+}
+
+
+/* media queries */
+@media screen and (max-width:500px) {
+    .card{
+        /* width: 90%; */
+        margin: 0px;
+
+    }
+    
+}
